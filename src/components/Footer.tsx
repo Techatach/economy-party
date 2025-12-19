@@ -11,7 +11,7 @@ export default function Footer() {
         <div className="container">
           <div className="row g-5 py-5">
             <div className="col-lg-3 col-md-6">
-              <h4 className="text-light mb-4">Our Office</h4>
+              <h4 className="text-light mb-4">สำนักงานพรรคเศรษฐกิจ</h4>
               <p className="mb-2">
                 <i className="fa fa-map-marker-alt me-3" />
                 123 Street, New York, USA
@@ -40,25 +40,25 @@ export default function Footer() {
               </div>
             </div>
             <div className="col-lg-3 col-md-6">
-              <h4 className="text-light mb-4">Quick Links</h4>
-              <a className="btn btn-link" href="#!">
-                About Us
+              <h4 className="text-light mb-4">ลิงค์ด่วน</h4>
+              <a className="btn btn-link" href="/">
+                หน้าหลัก
               </a>
-              <a className="btn btn-link" href="#!">
-                Contact Us
+              <a className="btn btn-link" href="/about">
+                เกี่ยวกับ
               </a>
-              <a className="btn btn-link" href="#!">
-                Our Services
+              <a className="btn btn-link" href="/service">
+                บริการ
               </a>
-              <a className="btn btn-link" href="#!">
-                Terms &amp; Condition
+              <a className="btn btn-link" href="/policy">
+                นโยบายพรรคเศรษฐกิจ
               </a>
-              <a className="btn btn-link" href="#!">
-                Support
+              <a className="btn btn-link" href="/feature">
+                แจ้งเบาะแสการคอร์รัปชัน
               </a>
             </div>
             <div className="col-lg-3 col-md-6">
-              <h4 className="text-light mb-4">Business Hours</h4>
+              <h4 className="text-light mb-4">เวลาทำการ</h4>
               <p className="mb-1">Monday - Friday</p>
               <h6 className="text-light">09:00 am - 07:00 pm</h6>
               <p className="mb-1">Saturday</p>

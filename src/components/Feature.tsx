@@ -10,17 +10,19 @@ export default function Feature() {
           data-wow-delay="0.1s"
         >
           <div className="container text-center py-4">
-            <h1 className="display-3 animated slideInDown">Feature</h1>
+            <h1 className="display-6 animated slideInDown">
+              แจ้งเบาะแสการคอร์รัปชัน
+            </h1>
             <nav aria-label="breadcrumb animated slideInDown">
               <ol className="breadcrumb justify-content-center mb-0">
                 <li className="breadcrumb-item">
-                  <a href="#!">Home</a>
+                  <a href="#!">หน้าหลัก</a>
                 </li>
                 <li className="breadcrumb-item">
-                  <a href="#!">Pages</a>
+                  <a href="#!">เปลี่ยนประเทศไทยไร้คอร์รัปชัน</a>
                 </li>
                 <li className="breadcrumb-item active" aria-current="page">
-                  Feature
+                  แจ้งเบาะแสการคอร์รัปชัน
                 </li>
               </ol>
             </nav>
@@ -46,8 +48,7 @@ export default function Feature() {
                     <span />
                   </button>
                   <h3 className="ms-5 mb-0">
-                    Together, we can build a world where everyone has the chance
-                    to thrive.
+                    เรามาร่วมมือกันออกแบบการเมืองไทยไร้คอร์รัปชัน
                   </h3>
                 </div>
               </div>
