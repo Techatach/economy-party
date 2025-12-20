@@ -29,7 +29,7 @@ export default function Landingpage() {
               </div>
               <div className="col-lg-6">
                 <div className="carousel-img">
-                  <img className="w-100" src="img/Rungsi.jpg" alt="Image" />
+                  <img className="w-100" src="img/carousel-1.jpg" alt="Image" />
                 </div>
               </div>
             </div>
@@ -57,7 +57,7 @@ export default function Landingpage() {
               </div>
               <div className="col-lg-6">
                 <div className="carousel-img">
-                  <img className="w-100" src="img/Rungsi2.jpg" alt="Image" />
+                  <img className="w-100" src="img/carousel-2.jpg" alt="Image" />
                 </div>
               </div>
             </div>
@@ -176,6 +176,10 @@ export default function Landingpage() {
                     <p className="text-dark">
                       <i className="fa fa-check text-primary me-2" />
                       No one should go to bed hungry.
+                    </p>
+                    <p className="text-dark">
+                      <i className="fa fa-check text-primary me-2" />
+                      We spread kindness and support.
                     </p>
                     <p className="text-dark">
                       <i className="fa fa-check text-primary me-2" />
@@ -430,7 +434,7 @@ export default function Landingpage() {
             <h1 className="display-6 mb-4">นโยบายพรรคเศรษฐกิจ 4 ด้าน</h1>
           </div>
           <div className="row g-4">
-            <div className="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.1s">
+            <div className="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.5s">
               <div className="donation-item d-flex h-100 p-4">
                 <div className="donation-progress d-flex flex-column flex-shrink-0 text-center me-4">
                   {/* <h6 className="mb-0">Raised</h6>
@@ -439,21 +443,21 @@ export default function Landingpage() {
                     <div
                       className="progress-bar w-100 bg-secondary"
                       role="progressbar"
-                      aria-valuenow={85}
+                      aria-valuenow={75}
                       aria-valuemin={0}
                       aria-valuemax={100}
                     >
-                      {/* <span className="fs-4">85%</span> */}
+                      {/* <span className="fs-4">75%</span> */}
                     </div>
                   </div>
-                  {/* <h6 className="mb-0">Goal</h6> */}
-                  {/* <span>$10000</span> */}
+                  {/* <h6 className="mb-0">Goal</h6>
+                  <span>$10000</span> */}
                 </div>
                 <div className="donation-detail">
                   <div className="position-relative mb-4">
                     <img
                       className="img-fluid w-100"
-                      src="img/donation-1.jpg"
+                      src="img/donation-3.jpg"
                       alt=""
                     />
                     <a
@@ -477,10 +481,7 @@ export default function Landingpage() {
                 </div>
               </div>
             </div>
-            <div
-              className="col-md-6 col-lg-4 wow fadeIn"
-              data-wow-delay="0.13s"
-            >
+            <div className="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.5s">
               <div className="donation-item d-flex h-100 p-4">
                 <div className="donation-progress d-flex flex-column flex-shrink-0 text-center me-4">
                   {/* <h6 className="mb-0">Raised</h6>
@@ -489,11 +490,11 @@ export default function Landingpage() {
                     <div
                       className="progress-bar w-100 bg-secondary"
                       role="progressbar"
-                      aria-valuenow={95}
+                      aria-valuenow={75}
                       aria-valuemin={0}
                       aria-valuemax={100}
                     >
-                      {/* <span className="fs-4">95%</span> */}
+                      {/* <span className="fs-4">75%</span> */}
                     </div>
                   </div>
                   {/* <h6 className="mb-0">Goal</h6>
@@ -503,7 +504,7 @@ export default function Landingpage() {
                   <div className="position-relative mb-4">
                     <img
                       className="img-fluid w-100"
-                      src="img/donation-2.jpg"
+                      src="img/donation-3.jpg"
                       alt=""
                     />
                     <a
@@ -563,10 +564,99 @@ export default function Landingpage() {
                     3. การขจัดคอร์รัปชัน
                   </a>
                   <p>
+                    {" "}
                     ยุทธศาสตร์ที่ 3: ต่อต้านการคอร์รัปชันทุกรูปแบบ
                     ควบคู่กับการบริหารภาครัฐอย่างโปร่งใสด้วยเทคโนโลยี AI
                     และดิจิทัล
                   </p>
+                  <a href="#!" className="btn btn-primary w-100 py-3">
+                    <i className="fa fa-plus me-2" />
+                    ดูรายละเอียด
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.5s">
+              <div className="donation-item d-flex h-100 p-4">
+                <div className="donation-progress d-flex flex-column flex-shrink-0 text-center me-4">
+                  {/* <h6 className="mb-0">Raised</h6>
+                  <span className="mb-2">$8000</span> */}
+                  <div className="progress d-flex align-items-end w-100 h-100 mb-2">
+                    <div
+                      className="progress-bar w-100 bg-secondary"
+                      role="progressbar"
+                      aria-valuenow={75}
+                      aria-valuemin={0}
+                      aria-valuemax={100}
+                    >
+                      {/* <span className="fs-4">75%</span> */}
+                    </div>
+                  </div>
+                  {/* <h6 className="mb-0">Goal</h6>
+                  <span>$10000</span> */}
+                </div>
+                <div className="donation-detail">
+                  <div className="position-relative mb-4">
+                    <img
+                      className="img-fluid w-100"
+                      src="img/donation-3.jpg"
+                      alt=""
+                    />
+                    <a
+                      href="#!"
+                      className="btn btn-sm btn-secondary px-3 position-absolute top-0 end-0"
+                    >
+                      Equity
+                    </a>
+                  </div>
+                  <a href="#!" className="h3 d-inline-block">
+                    4. การปฏิรูปกระบวนยุติธรรม
+                  </a>
+                  <p>ยุทธศาสตร์ที่ 4: นิติรัฐเพื่อเสรีภาพทางเศรษฐกิจ</p>
+                  <a href="#!" className="btn btn-primary w-100 py-3">
+                    <i className="fa fa-plus me-2" />
+                    ดูรายละเอียด
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.5s">
+              <div className="donation-item d-flex h-100 p-4">
+                <div className="donation-progress d-flex flex-column flex-shrink-0 text-center me-4">
+                  {/* <h6 className="mb-0">Raised</h6>
+                  <span className="mb-2">$8000</span> */}
+                  <div className="progress d-flex align-items-end w-100 h-100 mb-2">
+                    <div
+                      className="progress-bar w-100 bg-secondary"
+                      role="progressbar"
+                      aria-valuenow={75}
+                      aria-valuemin={0}
+                      aria-valuemax={100}
+                    >
+                      {/* <span className="fs-4">75%</span> */}
+                    </div>
+                  </div>
+                  {/* <h6 className="mb-0">Goal</h6>
+                  <span>$10000</span> */}
+                </div>
+                <div className="donation-detail">
+                  <div className="position-relative mb-4">
+                    <img
+                      className="img-fluid w-100"
+                      src="img/donation-3.jpg"
+                      alt=""
+                    />
+                    <a
+                      href="#!"
+                      className="btn btn-sm btn-secondary px-3 position-absolute top-0 end-0"
+                    >
+                      Equity
+                    </a>
+                  </div>
+                  <a href="#!" className="h3 d-inline-block">
+                    4. การปฏิรูปกระบวนยุติธรรม
+                  </a>
+                  <p>ยุทธศาสตร์ที่ 4: นิติรัฐเพื่อเสรีภาพทางเศรษฐกิจ</p>
                   <a href="#!" className="btn btn-primary w-100 py-3">
                     <i className="fa fa-plus me-2" />
                     ดูรายละเอียด
